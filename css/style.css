@@ -1,0 +1,43 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End Reset */
+
+/* Product */
+.product {
+  display: inline-block;
+  position: relative;
+}
+
+/* discount */
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.discount.green {
+  background: green;
+}
+
+.discount.red {
+  background: red;
+}
+
+/* Heart*/
+.heart {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.product:hover .heart {
+  display: block;
+}
